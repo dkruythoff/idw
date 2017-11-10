@@ -8,9 +8,66 @@
     <title>Review Component</title>
   </head>
   <body>
+    <svg style="display: none" focusable="false">
+      <!--
+      * Little SVG icons you can <use>...
+      * Read the ids to know what each one is.
+      * Basic usage: <svg viewBox="0 0 10 10"><use xlink:href="[id]"></use></svg>
+      -->
+      <symbol id="plus" viewBox="0 0 10 10">
+        <path d="m1 4h8v2h-8zm3-3h2v8h-2z"/>
+      </symbol>
 
-    <!-- <script src="libs/vue.js"></script> -->
+      <symbol id="minus" viewBox="0 0 10 10">
+        <rect height="2" width="8" y="4" x="1"/>
+      </symbol>
+
+      <symbol id="x" viewBox="0 0 10 10">
+        <path d="m7.1 1.4 1.4 1.4-5.6 5.6-1.4-1.4zm-4.2 0l5.6 5.6-1.4 1.4-5.6-5.6z"/>
+      </symbol>
+
+      <symbol id="tick" viewBox="0 0 10 10">
+        <path d="m7.5125 1.123 1.7321 1-4 6.9282-4.3301-2.5 1-1.7321 2.5981 1.5z"/>
+      </symbol>
+
+      <symbol id="star" viewBox="0 0 10 10">
+        <path d="m7.4 8.8-2.4-1.3-2.4 1.3.46-2.7-2-1.9 2.7-.39 1.2-2.5 1.2 2.5 2.7.39-1.9 1.9z"/>
+      </symbol>
+
+      <symbol id="arrow-left" viewBox="0 0 10 10">
+        <path d="m9 4h-4v-2l-4 3 4 3v-2h4z"/>
+      </symbol>
+
+      <symbol id="arrow-right" viewBox="0 0 10 10">
+        <path d="m1 4h4v-2l4 3-4 3v-2h-4z"/>
+      </symbol>
+
+      <symbol id="arrow-up" viewBox="0 0 10 10">
+        <path d="m5 1-3 4h2v4h2v-4h2z"/>
+      </symbol>
+
+      <svg id="arrow-down" viewBox="0 0 10 10">
+        <path d="m5 9-3-4h2v-4h2v4h2z"/>
+      </svg>
+
+      <symbol id="thumbs-up" viewBox="0 0 10 10">
+        <path d="m2.8 1c-.7 0-.8.3-.7 1 .5 2.3-1 5.9.6 6.9h.4 4c.8 0 .8-1 .3-1.2.7-.4.4-1 .1-1.2.7-.3.5-1.1.1-1.3.3-.1.5-.3.5-.6 0-.4-.3-.7-.6-.7h-3.5c.1-2-.6-2.8-1.2-2.9z"/>
+      </symbol>
+
+      <symbol id="thumbs-down" viewBox="0 0 10 10">
+        <path d="m2.8 8.9c-.7 0-.8-.3-.7-1 .5-2.3-.9-6.5.6-6.9h.4 4c.8 0 .8 1 .3 1.2.7.4.4 1 .1 1.2.7.3.5 1.1.1 1.3.3.1.5.3.5.6 0 .4-.3.7-.6.7h-3.5c.1 2-.6 2.8-1.2 2.9z"/>
+      </symbol>
+
+      <symbol id="warning-sign" viewBox="0 0 10 10">
+        <path d="m5 1-4 8h8zm-.36 2.6h.7v3h-.7v-2.8594zm.36 3.4c.4 0 .5.3.5.6-.1.3-.4.45-.63.4-.27-.1-.47-.4-.37-.63.07-.17.20-.37.50-.37z"/>
+      </symbol>
+    </svg>
+
+    <!-- put your markup here, yeah? -->
+
     <!-- <script src="libs/jquery-1.12.4.min.js"></script> -->
-    <script src="script.js"></script>
+    <script>
+      // Put your JS here, yo!
+    </script>
   </body>
 </html>
