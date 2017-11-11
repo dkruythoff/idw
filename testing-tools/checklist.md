@@ -47,3 +47,4 @@
 - [ ] Make sure all content belongs to a landmark element (`<header>`, `<footer>`, `<nav>`, `<aside>`, `<main>`)
 - [ ] Avoid pure white and pure black visual designs (temper these shades)
 - [ ] Mark invalid fields clearly and provide associated error messages
+- [ ] Ensure content is not obscured through zooming (no fixed widths)
