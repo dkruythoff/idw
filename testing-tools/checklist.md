@@ -28,3 +28,4 @@
 - [ ] Use data tables (`<table>`) for data, not layout
 - [ ] Make scrollable elements focusable for keyboard users
 - [ ] Do not rely on color for differentation of visual elements
+- [ ] Use the same implementation for different instances of a pattern/widget
