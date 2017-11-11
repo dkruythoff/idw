@@ -25,5 +25,6 @@
 - [ ] Make sure text and background colors contrast sufficiently
 - [ ] Provide `<title>`s that name the site and the specific page
 - [ ] Provide large touch 'targets' for interactive elements
-- [ ] Use data tables for data, not layout
+- [ ] Use data tables (`<table>`) for data, not layout
 - [ ] Make scrollable elements focusable for keyboard users
+- [ ] Do not rely on color for differentation of visual elements
