@@ -41,10 +41,11 @@
 - [ ] Employ well-balanced, highly legible fonts (not too complex or elaborate)
 - [ ] Do not use very thin font faces
 - [ ] Ensure states (pressed, expanded, invalid, etc) are communicated to assistive software
-- [ ] Provide a default language and use `lang=[ISO code]` for sections in different languages
+- [ ] Provide a default language and use `lang="[ISO code]"` for sections in different languages
 - [ ] Make controls look like controls; give them strong perceived affordance
 - [ ] Underline links — at least in body copy
 - [ ] Make sure all content belongs to a landmark element (`<header>`, `<footer>`, `<nav>`, `<aside>`, `<main>`)
-- [ ] Avoid pure white and pure black visual designs (temper these shades)
+- [ ] Avoid pure white and pure black visual designs
 - [ ] Mark invalid fields clearly and provide associated error messages
 - [ ] Ensure content is not obscured through zooming (no fixed widths)
+- [ ] Provide a `manifest.json` file for identifiable homescreen links
