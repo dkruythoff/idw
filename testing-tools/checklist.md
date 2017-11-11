@@ -1,0 +1,29 @@
+# Inclusive Design Checklist
+
+- [ ] Minify CSS and JS, and remove unused/redundant code
+- [ ] Use screen reader and keyboard accessible HTML
+- [ ] Make sure wording is concise, clear, and not monotonous
+- [ ] Compress raster images
+- [ ] Optimize SVG path data
+- [ ] Make sure heading levels describe a logical section/subsection structure
+- [ ] Only include heading elements where they introduce sections of content of functionality
+- [ ] Remove potentially insensitive or uninclusive language (use singular 'they')
+- [ ] Give video content captions and/or transcripts
+- [ ] Make sure main body (paragraph) text is no smaller than `16px` on Desktop
+- [ ] Support 'pinch zoom' (remove `user-scalable=no` if present)
+- [ ] Use relative units (`em`, `rem`, and `ch`), especially for font metrics
+- [ ] Make sure styes and scripts are not render blocking
+- [ ] Install a service worker and cache all applicable assets
+- [ ] Use content, over device, based media queries for broad viewport support
+- [ ] Provide alternatives and/or descriptions for complex visualizations
+- [ ] Include only clear, meaningful animations
+- [ ] Make sure controls do not elicit unexpected or jarring behavior
+- [ ] Do not include third parties that compromise user privacy
+- [ ] Do not recreate supported and expected browser behaviors with bespoke scripts
+- [ ] Support Windows high contrast mode (use images, not background images, if salient)
+- [ ] Provide alternative text for salient images and apply `alt=""` or `aria-hidden="true"` to decorative ones
+- [ ] Make sure text and background colors contrast sufficiently
+- [ ] Provide `<title>`s that name the site and the specific page
+- [ ] Provide large touch 'targets' for interactive elements
+- [ ] Use data tables for data, not layout
+- [ ] Make scrollable elements focusable for keyboard users
