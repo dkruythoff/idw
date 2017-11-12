@@ -30,6 +30,8 @@ None! Available on all iOS devices.
 
 To switch it on, find the option in **Settings → Accessibility**.
 
+Handy guide: https://www.imore.com/how-use-voiceover-iphone-and-ipad
+
 # ChromeVox (Chrome)
 
 ## Installation
