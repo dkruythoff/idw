@@ -59,3 +59,9 @@ Open the **Audits** tab in developer tools and perform an audit of the current p
 ### Use
 
 Perform audits from developer tools' dedicated **aXe** tab.
+
+# Bookmarklets
+
+## HTML Code Sniffer
+
+This tool works as a bookmarklet and has a high degree of accuracy. Drag the [bookmarklet](http://squizlabs.github.io/HTML_CodeSniffer/) to your bookmarks bar and click the bookmarklet on the component page you want to test. Make sure "Standards" is set to WCAG2AA from the dropdown. Ignore notices, but test warnings manually if you believe there may be a real issue.
